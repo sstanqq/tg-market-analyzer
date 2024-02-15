@@ -4,11 +4,7 @@ from datetime import datetime
 import time
 
 
-# from config import BINANCE_API, BINANCE_SEC
-
-BINANCE_API = "CVWiUpcPxmnclpQphLjqGnCbyVgeM5PN2yANeKF3bUzS115xxpgDyXnOuwB7Breh"
-BINANCE_SEC = "MfsNZwxitPm16UAzqSypWtnEb6xRo4RPEXu4F2DapIpAqKNt1GJZZVC9CkSMNond"
-
+from config import BINANCE_API, BINANCE_SEC
 
 # Подключаем Binance api
 client = Client(BINANCE_API, BINANCE_SEC)
